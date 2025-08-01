@@ -37,26 +37,22 @@ It was confirmed that notifications were successfully sent to networkingoperator
 
 The fixed workflow is now expected to prevent SLA breaches by ensuring the Network Operations team is promptly alerted to critical network incidents, facilitating timely resolution.
 
-# Architecture Diagram
+## Architecture Diagram
 
+![Draw.io image of workflow](Diagram.png)
 
-
-# AI Scenario
+## AI Scenario
 Hypothetical Scenario: Your company operates globally across multiple time zones. Critical incidents often occur outside business hours when senior engineers aren't available. The current escalation process follows a rigid hierarchy that doesn't account for engineer expertise, current availability, or incident complexity, leading to prolonged resolution times.
 
 An AI agent could significantly enhance this incident notification and escalation system beyond the current fixed workflow by introducing intelligent routing and dynamic response management:
 
-## Intelligent Routing: ##
+### Intelligent Routing: 
  An AI agent could analyze the incident's details and cross-reference them with a database of network engineer profiles. Instead of a hierarchy, it could identify the most qualified network engineer for that specific type of incident. Simultaneously, it would check real-time engineer availability to ensure the notification goes to someone who can immediately respond.
 
-## Consideration of Time Zones and Current Workloads: ##
+### Consideration of Time Zones and Current Workloads: 
 The AI could integrate with global time zone data and network engineer work schedules. If a critical incident occurs outside typical business hours in one region, the AI could automatically identify qualified and available engineers in active time zones, minimizing delays. 
 
-## Learning from Historical Resolution Patterns: ##
+### Learning from Historical Resolution Patterns: 
 The AI agent could be trained on historical incident data, including resolution times, the network engineers involved, the steps taken, and the incident's complexity. Through machine learning, it could identify patterns that lead to faster resolutions. This continuous learning would allow the system to adapt and improve its routing decisions over time, which would help to optimize future incident remediations, as well as shorten downtime.
 
-
-## Screenshots
-
-![App Screenshot]()
 
