@@ -7,7 +7,7 @@ This README details the remediation of an existing ServiceNow workflow to ensure
 ## Configure the Flow Properly - Implementation Step 1
 The 'Kura Workload 1' workflow was remediated to correctly trigger notifications for critical network incidents.
 
-The existing workflow was renamed to 'Critical Network Incident Notification' for clarity and business-friendliness.
+The existing workflow was set up to notify no one when a low, or medium priority incident was created. That original workflow was renamed to 'Critical Network Incident Notification' for clarity and business-friendliness.
 
 The notification trigger within the flow was modified to activate when an incident meeting the following criteria is detected:
 
